@@ -1,0 +1,93 @@
+﻿@charset "UTF-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Millione Johnson 
+   Date:  9/13/18 
+   
+   Filename: lake_styles.css
+
+*/
+
+/* Structural Styles */
+
+html {
+    background-color: rgb(233, 184, 111);
+}
+
+body {
+    font-family: cursive;
+    font-size: 1.0em;
+}
+
+footer {
+padding: 5px;
+}
+
+body > footer {
+    background-color: antiquewhite;
+}
+
+h1, h2 {
+font-family: cursive;
+font-style: oblique;
+font-size: 1.8em;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.425);
+}
+
+h1 {
+    font-size: 45px;
+}
+p {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.089);
+    margin: 30px;
+}
+
+blockquote {
+    background-color: rgba(238, 191, 138, 0.342);
+    padding: 2.5em;
+}
+
+ul {
+    background-color: rgba(255, 228, 196, 0.315);
+}
+
+/* Heading Styles */
+
+
+
+/* Navigation Styles */
+nav > ul {
+    text-align: left;
+    background-color: rgba(247, 221, 181, 0.233);
+    color: whitesmoke;
+}
+
+nav a:hover,
+nav a:active {
+    color: bisque;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+section#rightcol {
+     
+}
+
+/* Article Styles */
+
+
+
+/* Aside Styles */
+
+
+
+/* Blockquote Styles */
